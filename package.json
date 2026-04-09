@@ -1,0 +1,15 @@
+{
+  "name": "leetcode-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "run:problem": "ts-node",
+    "dev": "ts-node src/playground/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
